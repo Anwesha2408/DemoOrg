@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>FirstApp2</display-name>
+  
+  <servlet>
+    <description></description>
+    <display-name>FirstApp</display-name>
+    <servlet-name>FirstApp</servlet-name>
+    <servlet-class>p1.FirstApp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstApp</servlet-name>
+    <url-pattern>/FirstApp</url-pattern>
+  </servlet-mapping></web-app>
